@@ -1,0 +1,136 @@
+body {
+    
+    text-align: center;
+    
+    background: url(img/portada2.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    background-attachment:fixed;
+  }
+  
+.contenedor{
+  margin: 50px;
+  margin-left: 200px;
+  width: 800px;
+  height: 750px;
+  padding: 10px;
+  background-color: rgba(255,255,255,0.1);
+  border-radius: 10px;
+  backdrop-filter: blur(20px);
+  border: 2px solid trasparent;
+  background-clip: padding-box;
+  box-shadow: 10px 10px 10px rgba(45,55,68,0.0.3);
+  line-height: 1.5;
+}
+
+h4{
+  color: blue;
+}
+img{
+  width: 120px;
+}
+
+  h1 {
+    color: #fff;
+    font-family: Arial, sans-serif;
+  }
+  
+  p {
+  color:#fff;
+}
+
+
+  input {
+    padding: 5px;
+    font-size: 16px;
+  }
+  
+  button {
+    padding: 8px 12px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  #mensaje {
+    color: #fff;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    margin-top: 20px;
+  }
+#intento{
+  color: red;
+  font-size: 20px;
+}
+
+img{
+  width: 100px;
+}
+.gif1{
+  width: 300px;
+}
+
+.gif4{
+  width: 150px;
+}
+
+
+
+
+
+
+
+
+@media (max-width: 400px) {
+  
+  body {
+    text-align: center;
+    background: url(img/portada2.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    background-attachment:fixed;
+}
+
+
+.contenedor {
+    margin: 40px;
+    margin-left: 43px;
+    width: 250px;
+    height: 570px;
+    padding: 10px;
+    background-color: rgba(255,255,255,0.1);
+    border-radius: 10px;
+    backdrop-filter: blur(30px);
+    border: 2px solid trasparent;
+    background-clip: padding-box;
+    box-shadow: 10px 10px 10px rgba(45,55,68,0.0.3);
+    line-height: 1.5;
+} 
+h1 {
+  color: #fff;
+  font-family: Arial, sans-serif;
+  font-size: 15px;
+}
+
+h4{
+  color: blue;
+}
+img{
+  width: 35px;
+}
+
+.gif1{
+  width: 100px;
+}
+.gif4{
+  width: 35px;
+}
+
+}
+
+
+

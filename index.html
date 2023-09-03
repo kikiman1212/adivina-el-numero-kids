@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="./img/K.png">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Juego de adivinar el número</title>
+</head>
+
+<body>
+    <audio src="mp3/cancion gus.mp3"  loop autoplay></audio>
+    <div class="contenedor">
+    <img class="img_k" src="img/K.png" width = 30px>
+    <h1>¡¡Adivina el número!!</h1>
+    <input type="text" id="nombreIngresado" placeholder="Ingresa tu Nombre" required>
+    <p>Introduce un número entre 1 y 100:</p>
+    <input type="number" id="numeroEntrada">
+    <button onclick="chequearResultado()">Comprobar</button>
+    <p id="mensaje">¡A jugar!</p>
+    <h4>Cantidad de Intentos: <p id="intento">0</p></h4>
+    <img class="gif" src="img/blue.gif">
+    <img class="gif1" src="img/green.gif">
+    <img class="gif" src="img/orange.gif">
+    <img class="gif4" src="img/purpur.gif">
+    
+    
+    </div>
+
+    <script src="min.js"></script>
+</body>
+
+</html>
