@@ -11,22 +11,27 @@
 </head>
 
 <body>
-    <audio src="mp3/cancion gus.mp3"  loop autoplay></audio>
+ 
     <div class="contenedor">
-    <img class="img_k" src="img/K.png" width = 30px>
+        <div class="caja">
     <h1>¡¡Adivina el número!!</h1>
-    <input type="text" id="nombreIngresado" placeholder="Ingresa tu Nombre" required>
+    <div class="input-field">
+    <input type="text" id="nombreIngresado"
+    placeholder="Introduce tu nombre" required>
+    
+</div>
     <p>Introduce un número entre 1 y 100:</p>
-    <input type="number" id="numeroEntrada">
-    <button onclick="chequearResultado()">Comprobar</button>
+    <input type="number" id="numeroEntrada" required>
+    <button  onclick="chequearResultado()">Comprobar</button>
     <p id="mensaje">¡A jugar!</p>
     <h4>Cantidad de Intentos: <p id="intento">0</p></h4>
     <img class="gif" src="img/blue.gif">
     <img class="gif1" src="img/green.gif">
     <img class="gif" src="img/orange.gif">
     <img class="gif4" src="img/purpur.gif">
-    
-    
+    <button class="recargar" onclick="location.href = location.href">Volver a Jugar</button>
+</div>
+
     </div>
 
     <script src="min.js"></script>

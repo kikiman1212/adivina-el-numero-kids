@@ -1,7 +1,15 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
 body {
-    
-    text-align: center;
-    
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background: url(img/portada2.png);
     background-position: center center;
     background-repeat: no-repeat;
@@ -10,71 +18,123 @@ body {
   }
   
 .contenedor{
-  margin: 50px;
-  margin-left: 200px;
-  width: 800px;
-  height: 750px;
-  padding: 10px;
+  position: relative;
+  width: 90%;
+  height: 85%;
   background-color: rgba(255,255,255,0.1);
   border-radius: 10px;
-  backdrop-filter: blur(20px);
-  border: 2px solid trasparent;
+  backdrop-filter: blur(18px);
+  border: 2px solid white;
   background-clip: padding-box;
   box-shadow: 10px 10px 10px rgba(45,55,68,0.0.3);
   line-height: 1.5;
 }
 
+.caja{
+  width: 90%;
+  height: 99%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 h4{
   color: blue;
+  font-family: fantasy;
+  font-size: 20px;
 }
 img{
   width: 120px;
 }
 
   h1 {
+    font-size: 35px;
     color: #fff;
     font-family: Arial, sans-serif;
+    font-weight: 800;
   }
   
   p {
+    font-size: 25px;
   color:#fff;
 }
 
-
   input {
+  
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 30px;
     padding: 5px;
-    font-size: 16px;
-  }
-  
-  button {
-    padding: 8px 12px;
-    background-color: #4CAF50;
-    color: white;
-    border: none;
-    font-size: 16px;
-    cursor: pointer;
-  }
-  
-  #mensaje {
-    color: #fff;
+    font-size: 22px;
     font-family: Arial, sans-serif;
-    font-size: 20px;
-    margin-top: 20px;
+    transition: 2s;
+    cursor: pointer;
+    font-weight: 700;
+    color: white;
   }
+
+  input:hover{
+    background-color: #09c6d0;
+    color: #fff;
+  }
+  
+  #nombreIngresado{
+    width:250px;
+  }
+
+  #numeroEntrada{
+    width:100px;
+  }
+  button {
+    position: relative;
+    display: inline-block;
+    border: 2px solid white;
+    border-radius: 30px;
+    margin:20px;
+    padding: 9px 12px;
+    background-color: transparent;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: 700;
+    transition: 2s;
+  }
+  button:hover{
+    background-color: rgb(24, 180, 21);
+  }
+
+  #mensaje {
+    color: rgb(106, 185, 9);
+    font-family: fantasy;
+    font-size: 25px;
+    margin: 20px;
+  }
+  
 #intento{
   color: red;
-  font-size: 20px;
+  font-size: 30px;
 }
 
 img{
   width: 100px;
 }
+
+.gif{
+  width: 50px
+}
 .gif1{
-  width: 300px;
+  width: 200px;
 }
 
 .gif4{
-  width: 150px;
+  width: 100px;
+}
+.gif5{
+  width: 350px;
+}
+
+span{
+  color: #fff;
+  font-family: fantasy;
 }
 
 
@@ -82,13 +142,10 @@ img{
 
 
 
-
-
-@media (max-width: 400px) {
+@media (max-width: 550px) {
   
   body {
     text-align: center;
-    background: url(img/portada2.png);
     background-position: center center;
     background-repeat: no-repeat;
     background-size:100% 100%;
@@ -99,24 +156,26 @@ img{
 .contenedor {
     margin: 40px;
     margin-left: 43px;
-    width: 250px;
-    height: 570px;
+    width: 350px;
+    height: 800px;
     padding: 10px;
     background-color: rgba(255,255,255,0.1);
     border-radius: 10px;
-    backdrop-filter: blur(30px);
+    backdrop-filter: blur(11px);
     border: 2px solid trasparent;
     background-clip: padding-box;
     box-shadow: 10px 10px 10px rgba(45,55,68,0.0.3);
     line-height: 1.5;
 } 
 h1 {
+  margin: 10px;
   color: #fff;
   font-family: Arial, sans-serif;
-  font-size: 15px;
+  font-size: 20px;
 }
 
 h4{
+
   color: blue;
 }
 img{
@@ -128,6 +187,11 @@ img{
 }
 .gif4{
   width: 35px;
+  
+}
+
+.gif5{
+  width: 150px;
 }
 
 }
